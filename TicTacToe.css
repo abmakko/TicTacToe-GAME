@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    background-color: black;
+    height: 100%;
+    font-family: 'VT323', monospace;
+}
+
+.gameboard{
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 150px));
+    grid-template-rows: repeat(3, minmax(100px, 150px));
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    border: 2rem inset green;
+}
+
+.slot-1{
+    border-right: 0.5rem ridge green;
+    border-bottom: 0.5rem ridge green;
+}
+
+.slot-2{
+    border-right: 0.5rem ridge green;
+    border-bottom: 0.5rem ridge green;
+}
+
+.slot-3{
+    border-bottom: 0.5rem ridge green;
+}
+
+.slot-4{
+    border-right: 0.5rem ridge green;
+    border-bottom: 0.5rem ridge green;
+}
+
+.slot-5{
+    border-right: 0.5rem ridge green;
+    border-bottom: 0.5rem ridge green;
+}
+
+.slot-6{
+    border-bottom: 0.5rem ridge green;
+}
+
+.slot-7{
+    border-right: 0.5rem ridge green;
+}
+
+.slot-8{
+    border-right: 0.5rem ridge green;
+}
+
+.slots{
+    color: black;
+    font-weight: 1000;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filled-slot{
+    background-color: greenyellow;
+}
+
+.slots:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.gameButtons{
+    width: 450px;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+}
